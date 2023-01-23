@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Justweb</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color: black;
+            font-family: 'Anton', sans-serif;
+
+        }
+        .navbar{
+            display: flex;
+            color: white;
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+            padding: 3rem 7rem;
+            
+        }
+        .navbar .left a{
+            text-decoration: none;
+            color: aliceblue;
+            padding-right: 2rem;
+        }
+        .About1{
+            display: flex;
+            margin: 5rem 7rem;
+           
+           
+        }
+        .text h1{
+         padding-bottom: 3rem;
+        }
+        .About1 .image img{
+            width: 489px;
+            height: 190px
+        }
+        .About1 .text .btn{
+         border: 1px solid whitesmoke;
+         padding: 9px 16px;
+         width: 7rem;
+         background-color: orange;
+         color: white;
+         margin-top: 3rem; ;
+        }
+        .services {
+            display: flex;
+            flex-direction: column;
+            margin: 0rem 7rem;
+            
+        }
+        .services img{
+            width: 18rem;
+            height: auto;
+        }
+        .blog{
+            display: flex;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .services .blog  h5{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-weight: bold;
+            font-size: larger;
+
+        }
+        
+        .services .blog p{
+            text-align: justify;
+        }
+        .services .blog .box3 img{
+            height: 12rem;
+        }
+        .services .blog .btn{
+            border: 1px solid whitesmoke;
+         padding: 9px 16px;
+         width: 7rem;
+         background-color: orange;
+         color: white;
+         margin-top: 3rem;
+        }
+        .services .blog .box1{
+            width: 18rem;
+        }
+        .services .blog .box2{
+            width: 18rem;
+        }
+        .services .blog .box3{
+            width: 18rem;
+        }
+        .contact_Us{
+            background: black;
+            color: whitesmoke;
+        }
+        .Footer{
+            display: flex;
+            justify-content:space-between;
+            padding: 3rem 7rem;
+        }
+        .Footer ul{
+           list-style: none;
+        }
+        .Footer .posts{
+            width: 18rem;
+        }
+        .Footer .About{
+            width: 18rem;
+        }
+        .Footer .connect {
+            width: 18rem;
+        }
+        .Footer .connect a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .Footer h4{
+            padding-bottom: 1rem ;
+        }
+        .copyright {
+              padding: 1rem 23rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Bloom</h1>
+            </div>
+            <div class="left">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About us</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </header>
+    <section class="About1">
+        <div class="text">
+            <h1>Lorem, ipsum dolor.</h1>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt eaque error minus facilis. Alias adipisci sint voluptate pariatur architecto!</span>
+           <div class="btn">
+              <span> Learn More </span>
+           </div>
+        </div>
+        <div class="image">
+           <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="image">
+        </div>
+    </section>
+    <section class="services">
+        <h1>This is heading</h1>
+        <div class="blog">
+            <div class="box1 box">
+                <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam modi omnis dignissimos temporibus velit.</p>
+                <div class="btn">
+                    <span>Learn More</span>
+                </div>
+            </div>
+            <div class="box2 box">
+                <img src="https://cdn.unenvironment.org/2022-03/field-ge4d2466da_1920.jpg" alt="">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam modi omnis dignissimos temporibus velit.</p>
+                <div class="btn">
+                    <span>Learn More</span>
+                </div>
+            </div>
+            <div class="box3 box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOS6CVWuADMzHOv-dR1dIub55D0LIO51R7P1teiIAy-GDxAEZrcshOoxf5Ue8SkS7pnI&usqp=CAU" alt="">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam modi omnis dignissimos temporibus velit.</p>
+                <div class="btn">
+                    <span>Learn More</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact_Us">
+        <div class="Footer">
+        <div class="posts">
+           <h4>Latest Posts</h4>
+           <ul>
+               <li class="postLink">
+                   <img src="" alt="">
+                   <h6>Lorem ipsum dolor sit.</h6>
+                   <span>Lorem ipsum dolor sit amet consectetur.</span>
+               </li>
+               <li class="postLink">
+                   <img src="" alt="">
+                   <h6>Lorem ipsum dolor sit.</h6>
+                   <span>Lorem ipsum dolor sit amet consectetur.</span>
+               </li>
+               <li class="postLink">
+                   <img src="" alt="">
+                   <h6>Lorem ipsum dolor sit.</h6>
+                   <span>Lorem ipsum dolor sit amet consectetur.</span>
+               </li>
+           </ul>
+        </div>
+        <div class="About">
+            <h4>About</h4>
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, recusandae! Et vitae reprehenderit culpa exercitationem quod explicabo voluptatibus vero non laudantium quasi aut quibusdam placeat quisquam nostrum, dignissimos saepe animi dicta hic error sequi ipsa cum ut ducimus voluptas? Nostrum eaque ad veritatis repellendus voluptate.</span>
+        </div>
+        <div class="connect">
+            <h4>Stay Connected</h4>
+            <ul>
+                <li></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">RSS</a></li>
+                <li><a href="#">Google+</a></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    <footer class="Copyright">
+        <span>Copyright(c) 2023. All rights reserved Aditya Srivastava</span>
+    </footer>
+</body>
+</html>
